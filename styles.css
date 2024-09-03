@@ -1,0 +1,78 @@
+body {
+    font-family: "New Amsterdam", sans-serif;
+    color: whitesmoke;
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+#quiz-container {
+    display: table-column;
+    font-family: "New Amsterdam", sans-serif;
+    backdrop-filter: blur(9px) saturate(104%);
+    -webkit-backdrop-filter: blur(9px) saturate(104%);
+    background-color: rgba(17, 25, 40, 0.39);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#category-select, #difficulty-select  {
+    font-family: "New Amsterdam", sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 10;
+    height: 20;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "New Amsterdam", sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+.btn-container, #score-container {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    font-family: "New Amsterdam", sans-serif;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,1,8,0.455641631652661) 24%, rgba(2,0,36,1) 100%);
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    padding: 30px;
+    margin: 5px 0;
+    border-radius: 14% 86% 6% 94% / 84% 8% 92% 16%  ;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#category-input {
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(100% - 16px);
+}
